@@ -16,6 +16,8 @@ class Track(Vehicle):
     def __init__(self, License_plate, Brand, Weight, load_capacity):
         super().__init__(License_plate, Brand, Weight, load_capacity)
         self.load_capacity = load_capacity
+    def accelerate():
+        pass
 
 
 class Park:
